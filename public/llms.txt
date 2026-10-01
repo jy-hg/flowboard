@@ -1,0 +1,12 @@
+# FlowBoard
+
+> FlowBoard is a simple web app for organizing tasks on drag-and-drop kanban boards.
+
+## What it does
+- Create multiple boards, each with To Do, In Progress and Done columns
+- Add, edit, prioritize, search and filter cards; drag cards between columns
+- Sign in with email and password, magic link, or sign up for a free account
+
+## Pages
+- [Sign in / sign up](https://flowboard.example/): the only public page
+- Boards (/boards) require an account and are not indexable

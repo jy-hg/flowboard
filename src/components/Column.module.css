@@ -1,0 +1,107 @@
+.column {
+  background: var(--color-column-bg);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 280px;
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text);
+  letter-spacing: -0.15px;
+}
+
+.count {
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  font-size: 12px;
+  border-radius: var(--radius-full);
+  padding: 2px 8px;
+  min-width: 21px;
+  text-align: center;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 120px;
+  border-radius: var(--radius-sm);
+  outline: 2px solid transparent;
+  outline-offset: 4px;
+  transition:
+    outline-color 0.12s ease,
+    background-color 0.12s ease;
+}
+
+.cardList.over {
+  outline-color: var(--color-primary);
+}
+
+.dropZone {
+  flex: 1;
+  min-height: 120px;
+  background: var(--color-surface);
+  border: 2px dashed var(--color-border);
+  border-radius: var(--radius-sm);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 34px;
+  text-align: center;
+  transition:
+    border-color 0.12s ease,
+    background-color 0.12s ease;
+}
+
+.dropZone.over {
+  border-color: var(--color-primary);
+  background: #eef6fb;
+}
+
+.dropIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.dropText {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.15px;
+  color: var(--color-text-muted);
+}
+
+.addButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  color: var(--color-text-muted);
+  font-size: 14px;
+  font-weight: 500;
+  min-height: 32px;
+  padding: 4px 0;
+}
+
+.addButton:hover {
+  color: var(--color-text);
+}
+
+.addIcon {
+  width: 16px;
+  height: 16px;
+}

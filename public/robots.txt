@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /boards
+
+User-agent: GPTBot
+Allow: /
+Disallow: /boards
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /boards
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /boards
+
+Sitemap: https://flowboard.example/sitemap.xml
